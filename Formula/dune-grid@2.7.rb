@@ -1,7 +1,7 @@
 class DuneGridAT27 < Formula
   desc ""
   homepage "https://gitlab.dune-project.org"
-  url "https://gitlab.dune-project.org/core/dune-grid/-/archive/releases/2.7/dune-grid-releases-2.7.tar.gz"
+  url "https://gitlab.dune-project.org/core/dune-grid/-/archive/b7741c65/dune-grid-b7741c65.tar.gz"
   sha256 "bae974fd113d5117d465360cf543f22c278b066b6586c72885862e4491bd1d32"
   license "GPL-2.0"
 

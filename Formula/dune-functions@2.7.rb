@@ -1,7 +1,7 @@
 class DuneFunctionsAT27 < Formula
   desc ""
   homepage "https://gitlab.dune-project.org"
-  url "https://gitlab.dune-project.org/staging/dune-functions/-/archive/releases/2.7/dune-functions-releases-2.7.tar.gz"
+  url "https://gitlab.dune-project.org/staging/dune-functions/-/archive/534900aa/dune-functions-534900aa.tar.gz"
   sha256 "5f3363087603468e69cd7f743420b1f533fc851e0d6db56b934b1e2595197582"
   license "GPL-2.0"
 
