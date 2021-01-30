@@ -2,8 +2,8 @@
 class DuneCommonAT27 < Formula
   desc "DUNE Build system, infrastructure and foundation classes"
   homepage "https://gitlab.dune-project.org"
-  url "https://gitlab.dune-project.org/core/dune-common/-/archive/releases/2.7/dune-common-releases-2.7.tar.gz"
-  sha256 "d29beb3e51f97978f3726ec67b768b9a09f797c2e45f2a3536f34e4cba63fcfb"
+  url "https://gitlab.dune-project.org/core/dune-common/-/archive/v2.7.1/dune-common-v2.7.1.tar.gz"
+  sha256 "50cc87de79922d332d193c00f14cdb520169244ffaca23785b44f98d4eb6a0e8"
   license "GPL-2.0"
 
   depends_on "cmake"
