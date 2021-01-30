@@ -2,7 +2,7 @@ class DuneUggridAT27 < Formula
   desc ""
   homepage "https://gitlab.dune-project.org"
   url "https://gitlab.dune-project.org/staging/dune-uggrid/-/archive/releases/2.7/dune-uggrid-releases-2.7.tar.gz"
-  sha256 "bae974fd113d5117d465360cf543f22c278b066b6586c72885862e4491bd1d32"
+  sha256 "3d58cf7a61e3eb8f668aa62d30cc565d2c9b673fe2eedcd37a3bdb432f41cb0f"
   license "GPL-2.0"
 
   depends_on "dune-copasi/dune/dune-common@2.7"
