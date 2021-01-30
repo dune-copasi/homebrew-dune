@@ -17,7 +17,7 @@ class DuneCommonAT27 < Formula
   depends_on "liblas"
 
   def install
-    system "cmake", ".", *std_cmake_args
+    system "cmake", "-DBUILD_SHARED_LIBS=1", ".", *std_cmake_args
     system "make", "install"
   end
 
