@@ -5,7 +5,7 @@ class DuneGeometryAT27 < Formula
   sha256 "e3c43537ea4857699b860d3a39ef8ef0b3669f2f6755834fce775b11dacc81ad"
   license "GPL-2.0"
 
-  depends_on "dune-copasi/dune/dune-common"
+  depends_on "dune-copasi/dune/dune-common@2.7"
 
   def install
     system "cmake", "-DBUILD_SHARED_LIBS=1", ".", *std_cmake_args
