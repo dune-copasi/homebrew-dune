@@ -9,6 +9,7 @@ class DuneFunctionsAT27 < Formula
   depends_on "dune-copasi/dune/dune-grid@2.7"
   depends_on "dune-copasi/dune/dune-istl@2.7"
   depends_on "dune-copasi/dune/dune-typetree@2.7"
+  depends_on "dune-copasi/dune/dune-localfunctions@2.7"
 
   def install
     system "cmake", "-DBUILD_SHARED_LIBS=1", ".", *std_cmake_args
