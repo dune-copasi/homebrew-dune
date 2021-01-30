@@ -10,6 +10,7 @@ class DunePdelabAT27 < Formula
   depends_on "dune-copasi/dune/dune-istl@2.7"
   depends_on "dune-copasi/dune/dune-typetree@2.7"
   depends_on "dune-copasi/dune/dune-localfunctions@2.7"
+  depends_on "dune-copasi/dune/dune-functions@2.7"
   depends_on "eigen"
 
   def install
