@@ -1,4 +1,4 @@
-class DuneGeometryAT27 < Formula
+class DuneLoggingAT27 < Formula
   desc ""
   homepage "https://gitlab.dune-project.org"
   url "https://gitlab.dune-project.org/core/dune-logging/-/archive/releases/2.7/dune-logging-releases-2.7.tar.gz"
