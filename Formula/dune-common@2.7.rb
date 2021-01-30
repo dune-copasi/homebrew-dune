@@ -9,6 +9,12 @@ class DuneCommonAT27 < Formula
   depends_on "cmake"
   depends_on "gcc"
   depends_on "pkg-config"
+  depends_on "open-mpi"
+  depends_on "python@3.9"
+  depends_on "gmp"
+  depends_on "superlu"
+  depends_on "lapack"
+  depends_on "liblas"
 
   def install
     system "cmake", ".", *std_cmake_args
