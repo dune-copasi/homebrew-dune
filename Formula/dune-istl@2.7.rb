@@ -1,7 +1,7 @@
 class DuneIstlAT27 < Formula
   desc ""
   homepage "https://gitlab.dune-project.org"
-  url "https://gitlab.dune-project.org/core/dune-istl/-/archive/761b28aa/dune-istl-761b28aa.tar.gz"
+  url "https://gitlab.dune-project.org/core/dune-istl/-/archive/releases/2.7/dune-istl-releases-2.7.tar.gz"
   sha256 "a8b191683ec221503ea19e1ab77010b090a41693f3a0618ddf86840f899e7b4a"
   license "GPL-2.0"
 

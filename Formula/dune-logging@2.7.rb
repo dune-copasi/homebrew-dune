@@ -1,7 +1,7 @@
 class DuneLoggingAT27 < Formula
   desc ""
   homepage "https://gitlab.dune-project.org"
-  url "https://gitlab.dune-project.org/staging/dune-logging/-/archive/e60044ed/dune-logging-e60044ed.tar.gz"
+  url "https://gitlab.dune-project.org/staging/dune-logging/-/archive/releases/2.7/dune-logging-releases-2.7.tar.gz"
   sha256 "32b5d4b559d54d6ed6b8a1ebc8e0cff1c4113e03d5d129426b0c4c45e6f85da2"
   license "GPL-2.0"
 
