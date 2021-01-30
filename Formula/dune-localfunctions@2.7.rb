@@ -1,8 +1,8 @@
 class DuneLocalfunctionsAT27 < Formula
   desc ""
   homepage "https://gitlab.dune-project.org"
-  url "https://gitlab.dune-project.org/core/dune-localfunctions/-/archive/releases/2.7/dune-localfunctions-releases-2.7.tar.gz"
-  sha256 "f3092ec08ffaa44d5cf12f70b09361f48dd7d370c2eb2cb4308df5a74407bd75"
+  url "https://gitlab.dune-project.org/core/dune-localfunctions/-/archive/v2.7.1/dune-localfunctions-v2.7.1.tar.gz"
+  sha256 "3db323cb6690d5e3eb5c50392fddd4d3e433b9fa465498821a708c051c3f5f3d"
   license "GPL-2.0"
 
   depends_on "dune-copasi/dune/dune-common@2.7"

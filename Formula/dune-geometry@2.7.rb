@@ -1,8 +1,8 @@
 class DuneGeometryAT27 < Formula
   desc ""
   homepage "https://gitlab.dune-project.org"
-  url "https://gitlab.dune-project.org/core/dune-geometry/-/archive/releases/2.7/dune-geometry-releases-2.7.tar.gz"
-  sha256 "e3c43537ea4857699b860d3a39ef8ef0b3669f2f6755834fce775b11dacc81ad"
+  url "https://gitlab.dune-project.org/core/dune-geometry/-/archive/v2.7.1/dune-geometry-v2.7.1.tar.gz"
+  sha256 "1adae365a764c96fd318d60e2e8ebb0274e98f4d05b72596c5c855b7c57dbbc3"
   license "GPL-2.0"
 
   depends_on "dune-copasi/dune/dune-common@2.7"
