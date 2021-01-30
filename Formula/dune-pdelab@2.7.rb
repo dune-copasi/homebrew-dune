@@ -2,7 +2,7 @@ class DunePdelabAT27 < Formula
   desc ""
   homepage "https://gitlab.dune-project.org"
   url "https://gitlab.dune-project.org/pdelab/dune-pdelab/-/archive/releases/2.7/dune-pdelab-releases-2.7.tar.gz"
-  sha256 "5f3363087603468e69cd7f743420b1f533fc851e0d6db56b934b1e2595197582"
+  sha256 "e0d82fa43c744bcab0f486e69f421553f3329771cd1162bd738831e148ead1e2"
   license "GPL-2.0"
 
   depends_on "dune-copasi/dune/dune-common@2.7"
