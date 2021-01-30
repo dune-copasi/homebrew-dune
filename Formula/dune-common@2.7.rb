@@ -14,7 +14,7 @@ class DuneCommonAT27 < Formula
   depends_on "gmp"
   depends_on "superlu"
   depends_on "lapack"
-  depends_on "liblas"
+  depends_on "openblas"
 
   def install
     system "cmake", "-DBUILD_SHARED_LIBS=1", ".", *std_cmake_args
