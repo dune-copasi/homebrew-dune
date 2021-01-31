@@ -5,7 +5,7 @@ class DuneLoggingAT27 < Formula
   sha256 "32b5d4b559d54d6ed6b8a1ebc8e0cff1c4113e03d5d129426b0c4c45e6f85da2"
   license any_of: [
     "GPL-2.0-only" => { with: "DUNE-exception" },
-    "LGPL-3-or-later",
+    "LGPL-3.0-or-later",
     "BSD-2-Clause"
   ]
 

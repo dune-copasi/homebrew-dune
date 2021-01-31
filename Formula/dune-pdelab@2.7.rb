@@ -5,7 +5,7 @@ class DunePdelabAT27 < Formula
   sha256 "e0d82fa43c744bcab0f486e69f421553f3329771cd1162bd738831e148ead1e2"
   license any_of: [
     "GPL-2.0-only" => { with: "DUNE-exception" },
-    "LGPL-3-or-later"
+    "LGPL-3.0-or-later"
   ]
 
   depends_on "dune-common@2.7"
