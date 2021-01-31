@@ -5,7 +5,7 @@ class DuneFunctionsAT27 < Formula
   sha256 "b24f401081e7a77aea1a918f1fd2f01138c6c7955d487edc32826813401076f7"
   license any_of: [
     "GPL-2.0-only" => { with: "DUNE-exception" },
-    "LGPL-3-or-later"
+    "LGPL-3.0-or-later"
   ]
 
   depends_on "dune-common@2.7"

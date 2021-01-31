@@ -6,8 +6,8 @@ class DuneCommonAT27 < Formula
   sha256 "50cc87de79922d332d193c00f14cdb520169244ffaca23785b44f98d4eb6a0e8"
   license all_of: [
     "GPL-2.0-only" => { with: "DUNE-exception" },
-    "BSD-3-clause",
     "FSFAP",
+    "BSD-3-clause",
     "other"
   ]
 
