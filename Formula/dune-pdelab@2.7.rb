@@ -1,4 +1,5 @@
 class DunePdelabAT27 < Formula
+  option "without-dune-copasi-support", "Leave out support for dune-copasi"
   desc "Packaging for dune-pdelab: a toolbox for solving PDEs -- discretization module"
   homepage "https://gitlab.dune-project.org"
 
