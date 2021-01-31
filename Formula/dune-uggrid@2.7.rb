@@ -1,5 +1,5 @@
 class DuneUggridAT27 < Formula
-  desc ""
+  desc "Packaging for dune-uggrid: a toolbox for solving PDEs -- UG grid manager"
   homepage "https://gitlab.dune-project.org"
   url "https://gitlab.dune-project.org/staging/dune-uggrid/-/archive/v2.7.1/dune-uggrid-v2.7.1.tar.gz"
   sha256 "f8a4da02c9718b1ae2cc035ae412a5e5ce4ba173e1e9deb0f169d0ad33906840"

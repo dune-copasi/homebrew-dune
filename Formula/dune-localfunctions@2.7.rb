@@ -1,5 +1,5 @@
 class DuneLocalfunctionsAT27 < Formula
-  desc ""
+  desc "Packaging for dune-localfunctions: a toolbox for solving PDEs -- local basis"
   homepage "https://gitlab.dune-project.org"
   url "https://gitlab.dune-project.org/core/dune-localfunctions/-/archive/v2.7.1/dune-localfunctions-v2.7.1.tar.gz"
   sha256 "3db323cb6690d5e3eb5c50392fddd4d3e433b9fa465498821a708c051c3f5f3d"

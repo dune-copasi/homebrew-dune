@@ -1,5 +1,5 @@
 class DuneIstlAT27 < Formula
-  desc ""
+  desc "Packaging for dune-istl: a toolbox for solving PDEs -- iterative solvers"
   homepage "https://gitlab.dune-project.org"
   url "https://gitlab.dune-project.org/core/dune-istl/-/archive/v2.7.1/dune-istl-v2.7.1.tar.gz"
   sha256 "352c16b57be8601e05d066e171832daf79694b02c67545e3c866defa9730bc38"

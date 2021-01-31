@@ -1,5 +1,5 @@
 class DuneGridAT27 < Formula
-  desc ""
+  desc "Packaging for dune-grid: a toolbox for solving PDEs -- grid interface"
   homepage "https://gitlab.dune-project.org"
   url "https://gitlab.dune-project.org/core/dune-grid/-/archive/v2.7.1/dune-grid-v2.7.1.tar.gz"
   sha256 "dfd8872772d56deb0ba7e97387598cd98854d789c1b148573f9b3506df3d6c2d"

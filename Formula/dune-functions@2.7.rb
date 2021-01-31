@@ -1,5 +1,5 @@
 class DuneFunctionsAT27 < Formula
-  desc ""
+  desc "Packaging for dune-functions: toolbox for solving PDEs -- extended interface for discrete functions"
   homepage "https://gitlab.dune-project.org"
   url "https://gitlab.dune-project.org/staging/dune-functions/-/archive/v2.7.1/dune-functions-v2.7.1.tar.gz"
   sha256 "b24f401081e7a77aea1a918f1fd2f01138c6c7955d487edc32826813401076f7"
