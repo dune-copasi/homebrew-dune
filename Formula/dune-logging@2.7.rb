@@ -7,6 +7,7 @@ class DuneLoggingAT27 < Formula
     url "https://gitlab.dune-project.org/copasi/dune-logging/-/archive/support/dune-copasi-v0.3/dune-logging-support-dune-copasi-v0.3.tar.gz"
     sha256 "a0f155899630448c08f50c00edc304410df9b06178183e5ae2ca43779e1b3c39"
   else
+    opoo "Plain dune-logging v2.7 installation is broken. Try with --with-support-dune-copasi-v0.3 flag."
     url "https://gitlab.dune-project.org/staging/dune-logging/-/archive/releases/2.7/dune-logging-releases-2.7.tar.gz"
     sha256 "32b5d4b559d54d6ed6b8a1ebc8e0cff1c4113e03d5d129426b0c4c45e6f85da2"
   end
