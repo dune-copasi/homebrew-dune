@@ -9,7 +9,6 @@ class DuneFunctionsAT27 < Formula
   #   "LGPL-3.0-or-later"
   # ]
 
-
   depends_on "dune-common@2.7"
   depends_on "dune-grid@2.7"
   depends_on "dune-istl@2.7"
