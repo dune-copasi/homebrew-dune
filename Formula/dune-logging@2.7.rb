@@ -20,7 +20,7 @@ class DuneLoggingAT27 < Formula
   depends_on "fmt"
 
   def install
-    system "cmake", "-DBUILD_SHARED_LIBS=1", ".", *std_cmake_args
+    system "cmake", "-DCMAKE_CXX_STANDARD=17", "-DBUILD_SHARED_LIBS=1", ".", *std_cmake_args
     system "make", "install"
   end
 
