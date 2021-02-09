@@ -18,7 +18,7 @@ class DuneCopasiAT03 < Formula
   depends_on "dune-copasi/tap/dune-multidomaingrid@2.7" => :build
 
   def install
-    system "cmake", "-DDUNE_COPASI_SD_EXECUTABLE=1", "-DBUILD_SHARED_LIBS=1", ".", *std_cmake_args
+    system "cmake", "-DCMAKE_CXX_STANDARD=17",, "-DDUNE_COPASI_SD_EXECUTABLE=1", "-DBUILD_SHARED_LIBS=1", ".", *std_cmake_args
     system "make", "install"
   end
 
