@@ -18,7 +18,7 @@ Where `<formula>` is one of the following packages:
 | Formula | Versions (**default**) | Options |
 | ------- | ---------------------| -------- |
 | `dune-common`           | **2.7** |
-| `dune-copasi`           | **1.0** | --with-devel |
+| `dune-copasi`           | **1.0** | `--with-devel` |
 | `dune-functions`        | **2.7** |
 | `dune-geometry`         | **2.7** |
 | `dune-grid`             | **2.7** |
