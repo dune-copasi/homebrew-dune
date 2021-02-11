@@ -14,42 +14,36 @@ class DuneCopasiAT10 < Formula
 
   license "BSD-2-clause"
 
-  option "with-devel", "Install development tools"
+  option "with-devel", "Install C++ header files"
 
   depends_on "muparser"
   depends_on "libtiff"
   depends_on "open-mpi"
-
-  if build.with? "devel"
-    depends_on "cmake"
-    depends_on "gcc"
-    depends_on "dune-logging@2.7"
-    depends_on "dune-copasi/tap/dune-copasi-multidomaingrid@1.0"
-    depends_on "dune-copasi/tap/dune-copasi-pdelab@1.0"
-  else
-    depends_on "cmake" => :build
-    depends_on "gcc" => :build
-    depends_on "dune-logging@2.7" => :build
-    depends_on "dune-copasi/tap/dune-copasi-multidomaingrid@1.0" => :build
-    depends_on "dune-copasi/tap/dune-copasi-pdelab@1.0" => :build
-  end
+  depends_on "cmake" => [(build.with? "devel") ? :recommended : :build]
+  depends_on "gcc" => [(build.with? "devel") ? :recommended : :build]
+  depends_on "dune-logging@2.7" => [(build.with? "devel") ? :recommended : :build]
+  depends_on "dune-copasi/tap/dune-copasi-multidomaingrid@1.0" => [(build.with? "devel") ? :recommended : :build]
+  depends_on "dune-copasi/tap/dune-copasi-pdelab@1.0" => [(build.with? "devel") ? :recommended : :build]
 
   def install
     ENV.deparallelize
     system "cmake",
       *std_cmake_args,
       *DuneCommonAT27.cmake_args,
-      "-DDUNE_COPASI_SD_EXECUTABLE=ON",
+      "-DDUNE_COPASI_SD_EXECUTABLE=OFF",
+      "-DDUNE_COPASI_MD_EXECUTABLE=OFF",
       "-DDUNE_USE_FALLBACK_FILESYSTEM=ON",
       "."
 
-    install_args = %W[
-      --component Libraries
-      --component Runtime
+    system "cmake", "--build", "."
+
+    install_comp = [
+      '--component Libraries',
+      '--component Runtime'
     ]
-    install_args << "--component Development" if build.with? "devel"
-    install_args << "--component Unspecified" if build.with? "devel"
-    system "cmake", "--install", ".", *install_args
+    install_comp << "--component Development" if build.with? "devel"
+    install_comp << "--component Unspecified" if build.with? "devel"
+    system "cmake", "--install", "."
   end
 
   test do
