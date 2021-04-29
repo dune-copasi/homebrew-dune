@@ -3,8 +3,8 @@ name: CI Builds
 on: push
 
 jobs:
-  macos:
-    name: MacOS
+  v1_0:
+    name: Version 1.0
     runs-on: macos-10.15
     env:
       MACOSX_DEPLOYMENT_TARGET: '10.14'
@@ -16,4 +16,24 @@ jobs:
       - name: Set up Homebrew
         run: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
       - name: Build and Install
-        run: brew install -v dune-copasi/tap/dune-copasi
+        run: |
+          brew install -v dune-copasi/tap/dune-copasi@1.0
+          dune-copasi-sd --help
+          dune-copasi-md --help
+  v1_1:
+    name: Version 1.1
+    runs-on: macos-10.15
+    env:
+      MACOSX_DEPLOYMENT_TARGET: '10.14'
+      TERM: 'xterm-256color'
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Set up Homebrew
+        run: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      - name: Build and Install
+        run: |
+          brew install -v dune-copasi/tap/dune-copasi@1.1
+          dune-copasi-sd --help
+          dune-copasi-md --help

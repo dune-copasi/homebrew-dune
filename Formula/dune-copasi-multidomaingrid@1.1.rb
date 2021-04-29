@@ -1,6 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/dune-common@2.7.rb')
 
-class DuneCopasiMultidomaingridAT10 < Formula
+class DuneCopasiMultidomaingridAT11 < Formula
   desc "Packaging for dune-multidomaingrid: a toolbox for solving PDEs -- convert grids into multidomain grids"
   homepage "https://gitlab.dune-project.org"
 
@@ -15,11 +15,13 @@ class DuneCopasiMultidomaingridAT10 < Formula
   ]
 
   depends_on "dune-common@2.7"
-  depends_on "dune-copasi-typetree@1.0"
+  depends_on "dune-copasi-typetree@1.1"
   depends_on "dune-grid@2.7"
+
 
   conflicts_with "dune-multidomaingrid"
   conflicts_with "dune-multidomaingrid@2.7"
+  conflicts_with "dune-copasi-multidomaingrid@1.0"
 
   def install
     system "cmake", ".", *std_cmake_args, *DuneCommonAT27.cmake_args
